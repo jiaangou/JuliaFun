@@ -1,0 +1,94 @@
+
+#Arithmetic
+1+1
+84/2
+6^2
+
+#Values and types
+typeof(10)
+typeof(42.0)
+typeof("Hello")
+
+#Exercises
+println("Hello, World")
+println(Hello, World)
+println("Hello, ")
+2++2
+02+004
+
+#Assignments
+message = "This is a string"
+n = 420
+π_val = 3.1415
+
+
+#String operations
+string1  = "chick"
+string2 = "adee"
+string1*string2 # * concatenates strings
+string1^3 # ^ repeats strings
+
+
+#Exercises
+x = y = 1
+x
+y
+
+toy = "Car";
+toy = "Car"
+
+#Function calls
+
+#parse() converts a string to a numerical value
+parse(Int64,"34")
+parse(Float64,"Wkfj")
+parse(Float64, "28.421")
+
+#trunc() converts floating points to integers
+trunc(Int64,230.291)
+
+#float()
+float(24)
+
+#Writing functions
+function fun()
+    statement = "This is fun"
+    return(statement)
+end
+
+#Call function within a function
+function multiplier()
+    fun()^3
+end
+multiplier()
+
+#Exercise 3-2
+#Write a function rightjustify() with a string s as argument and prints with enough leading spaces
+
+function rightjustify(s)
+    space = " "^70
+    out = space*s
+    println(out)
+end
+
+rightjustify("monty")
+
+function printgrid()
+    println("+ - - - - + - - - - +")
+    println("|         |         |")
+    println("|         |         |")
+    println("|         |         |")
+    println("|         |         |")
+    println("+ - - - - + - - - - +")
+    println("|         |         |")
+    println("|         |         |")
+    println("|         |         |")
+    println("|         |         |")
+    println("+ - - - - + - - - - +")
+end
+
+printgrid()
+
+
+print("+ ")
+println("-")
